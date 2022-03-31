@@ -1,0 +1,14 @@
+
+inode:
+> It is a datastructure which stores metadata about a file.
+> it contains
+  1.uid 
+  2.gid
+  3.inode number
+  4.
+>  ex: stat filename
+       ls -i filename
+       df -i to see how many allocated.
+
+
+---------------------------------------------------------------------------------
