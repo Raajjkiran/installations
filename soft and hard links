@@ -1,0 +1,13 @@
+A symbolic or soft link is an actual link to the original file,
+hard link is a mirror copy of the original file. If you delete the original file, the soft link has no value, because it points to a non-existent file.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Difference
+             Soft                                                            Hard
+a. We can create a soft link over different filesystem       a. cannot create a hard link over different filesystem
+b. inodes and permission are differnt of softlink and        b. Inodes and permission are same 
+   actual file.
+c. permission will not be updated                            c. permission will be update if we change permision of actual file
+d. has only path not contents                                d. has actual contents of original file.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
